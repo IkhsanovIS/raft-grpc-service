@@ -122,5 +122,3 @@ The raft server participates in consensus with its cluster peers.
 When the REST server submits a proposal, the raft server transmits the proposal to its peers.
 When raft reaches a consensus, the server publishes all committed updates over a commit channel.
 For raftexample, this commit channel is consumed by the key-value store.
-
-# raft-grpc-service
